@@ -1,6 +1,4 @@
 # Online-Hostel-Reservation-System
- 
-# Online Hostel Reservation System
 
 ## 1. Project Objectives
 
