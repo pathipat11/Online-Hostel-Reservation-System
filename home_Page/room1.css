@@ -1,0 +1,93 @@
+/* CSS */
+
+body {
+    font-family: 'Material Symbols Rounded', sans-serif;
+}
+
+
+.content h1{
+    color: #3498db;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.room-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.room {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.room img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 20;
+}
+
+.button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Add this CSS to your existing styles */
+.navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.navbar .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
