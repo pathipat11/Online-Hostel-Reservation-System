@@ -88,6 +88,8 @@ This project aims to develop an online hostel reservation system that streamline
 
 **ER Diagram:** The ER Diagram is designed to clearly outline relationships between key tables, such as Users, Bookings, and Food Orders.
 
+<img src="home_Page/image/ER-diagram.png" width="300" height="auto">
+
 ---
 
 ## 7. Summary and Recommendations
@@ -141,18 +143,7 @@ By continuing to refine the system, the hostel can offer an enhanced user experi
 4. **Run the Project:**
    - Place the project folder in the `htdocs` directory if using XAMPP.
    - Start Apache and MySQL from XAMPP.
-   - Open your browser and navigate to `http://localhost/<project-folder>/admin_food.php`.
-
-## Usage
-### Room Management
-1. Navigate to the "Rooms" section.
-2. View, add, edit, or delete room records.
-3. Use the search bar to quickly locate rooms by their Room ID.
-
-### Food Management
-1. Navigate to the "Foods" section.
-2. View, add, edit, or delete food records.
-3. Use the search bar to quickly locate food items by their Food ID.
+   - Open your browser and navigate to `http://localhost/<project-folder>/home_Page/dashbord.php`.
 
 ## Security Features
 - Confirmation dialog boxes for delete operations.
